@@ -11,7 +11,8 @@ Name:		perl-Locale-Maketext-Lexicon
 Version:	0.36
 Release:	1
 Epoch:		1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	88487388e3e24d5eb88b2ce253dbd0dc
