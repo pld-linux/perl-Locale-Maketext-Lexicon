@@ -9,7 +9,8 @@ Summary:	Locale::Maketext::Lexicon - Use other catalog formats in Maketext
 Summary(pl):	Locale::Maketext::Lexicon - u¿ywanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
 Version:	0.16
-Release:	1
+Release:	2
+Epoch:		1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
