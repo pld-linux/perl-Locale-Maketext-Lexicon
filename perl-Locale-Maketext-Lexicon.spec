@@ -19,6 +19,8 @@ BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildRequires:	perl-Locale-Maketext
 BuildRequires:	perl-Regexp-Common
 BuildRequires:	perl-Test-Simple
+# to resolve dependency package name only:
+BuildRequires:	perl-Lingua-EN-Sentence
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
