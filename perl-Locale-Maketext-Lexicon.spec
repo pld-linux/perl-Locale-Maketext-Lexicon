@@ -5,7 +5,7 @@
 %define	pdir	Locale
 %define	pnam	Maketext-Lexicon
 Summary:	Locale::Maketext::Lexicon - Use other catalog formats in Maketext
-#Summary(pl):	
+Summary(pl):	Locale::Maketext::Lexicon - u¿ywanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
 Version:	0.09
 Release:	1
@@ -26,8 +26,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module provides lexicon-handling modules to read from other
 localization formats, such as Gettext, Msgcat, and so on.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ udostêpnia modu³y do obs³ugi s³owników, pozwalaj±ce czytaæ z
+innych formatów plików lokalizacyjnych, takich jak Gettext, Msgcat
+itp.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
