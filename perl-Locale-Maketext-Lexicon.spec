@@ -8,7 +8,7 @@
 Summary:	Locale::Maketext::Lexicon - Use other catalog formats in Maketext
 Summary(pl):	Locale::Maketext::Lexicon - u¿ywanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
-Version:	0.14
+Version:	0.15
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
