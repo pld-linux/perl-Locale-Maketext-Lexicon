@@ -8,14 +8,14 @@
 Summary:	Locale::Maketext::Lexicon - use other catalog formats in Maketext
 Summary(pl):	Locale::Maketext::Lexicon - u¿ywanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
-Version:	0.36
+Version:	0.38
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	88487388e3e24d5eb88b2ce253dbd0dc
+# Source0-md5:	d21e7bdf3601389bcd8644f30d0623fe
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -61,5 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS Change* README SIGNATURE
 %{perl_vendorlib}/%{pdir}/Maketext/*.pm
 %{perl_vendorlib}/%{pdir}/Maketext/Lexicon
+%{perl_vendorlib}/%{pdir}/Maketext/Extract
 %{_bindir}/*
 %{_mandir}/man?/*
