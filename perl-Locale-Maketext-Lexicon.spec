@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Locale
-%define		pnam	Maketext-Lexicon
+%define	pdir	Locale
+%define	pnam	Maketext-Lexicon
 Summary:	Locale::Maketext::Lexicon - use other catalog formats in Maketext
 Summary(pl):	Locale::Maketext::Lexicon - u¿ywanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
