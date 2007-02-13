@@ -6,7 +6,7 @@
 %define		pdir	Locale
 %define		pnam	Maketext-Lexicon
 Summary:	Locale::Maketext::Lexicon - use other catalog formats in Maketext
-Summary(pl.UTF-8):   Locale::Maketext::Lexicon - używanie innych formatów katalogów w Maketext
+Summary(pl.UTF-8):	Locale::Maketext::Lexicon - używanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
 Version:	0.46
 Release:	1
