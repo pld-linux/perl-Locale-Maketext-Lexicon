@@ -1,26 +1,26 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Locale
 %define		pnam	Maketext-Lexicon
+%include	/usr/lib/rpm/macros.perl
 Summary:	Locale::Maketext::Lexicon - use other catalog formats in Maketext
 Summary(pl.UTF-8):	Locale::Maketext::Lexicon - używanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
-Version:	0.77
+Version:	0.82
 Release:	1
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Locale/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	622dada722fb6db0e49e453c843af83c
+# Source0-md5:	738110c1e3a02d9d7e7c39e4905c2b1d
 URL:		http://search.cpan.org/dist/Locale-Maketext-Lexicon/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-Locale-Maketext
+BuildRequires:	perl-Locale-Maketext >= 1.17
 BuildRequires:	perl-Regexp-Common
 BuildRequires:	perl-Test-Simple
 # to resolve dependency package name only:
