@@ -17,6 +17,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Locale/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	7b88febfd5bdbb2ed9e2ea197b7f0148
 URL:		http://search.cpan.org/dist/Locale-Maketext-Lexicon/
+BuildRequires:	perl-ExtUtils-MakeMaker >= 6.30
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -60,9 +61,12 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS Change* README
-%{perl_vendorlib}/%{pdir}/Maketext/*.pm
-%{perl_vendorlib}/%{pdir}/Maketext/Lexicon
-%{perl_vendorlib}/%{pdir}/Maketext/Extract
-%{_bindir}/*
-%{_mandir}/man?/*
+%doc AUTHORS Changes README
+%attr(755,root,root) %{_bindir}/xgettext.pl
+%{perl_vendorlib}/Locale/Maketext/Extract.pm
+%{perl_vendorlib}/Locale/Maketext/Extract
+%{perl_vendorlib}/Locale/Maketext/Lexicon.pm
+%{perl_vendorlib}/Locale/Maketext/Lexicon
+%{_mandir}/man1/xgettext.pl.1p*
+%{_mandir}/man3/Locale::Maketext::Extract*.3pm*
+%{_mandir}/man3/Locale::Maketext::Lexicon*.3pm*
