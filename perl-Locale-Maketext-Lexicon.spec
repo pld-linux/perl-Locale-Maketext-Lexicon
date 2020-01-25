@@ -4,7 +4,6 @@
 
 %define		pdir	Locale
 %define		pnam	Maketext-Lexicon
-%include	/usr/lib/rpm/macros.perl
 Summary:	Locale::Maketext::Lexicon - use other catalog formats in Maketext
 Summary(pl.UTF-8):	Locale::Maketext::Lexicon - używanie innych formatów katalogów w Maketext
 Name:		perl-Locale-Maketext-Lexicon
